@@ -30,7 +30,7 @@ const ProductDescription = ({ product }) => {
     }
 
     return (
-        <ul>
+        <ul style={{listStyle: 'none'}}>
             <li className="" > {`Marca: : ${brand}`} </li>
             <li className="" > {`Modelo: : ${model}`} </li>
             <li className="" > {`Precio: : ${price}`} </li>

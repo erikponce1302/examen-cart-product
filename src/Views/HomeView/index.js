@@ -18,7 +18,7 @@ let HomeView = () => {
         <>
             <Layout>
                 <Search />
-                <Grid key="grid=product" container spacing={4} justify="center" >
+                <Grid key="grid-product" container spacing={4} justify="center" >
                     { productFilter.length === 0 ?
                         products.map( product => { 
                             return (
